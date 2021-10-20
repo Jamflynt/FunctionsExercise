@@ -6,7 +6,7 @@ spookyGhost();
 
 // 2
 function candy(goal){
-    console.log(`${goal}`);
+    console.log(`${goal}`); // can also do console.log(goal);
     console.log(`${goal}`);
     console.log(`${goal}`);
     console.log(`${goal}`);
@@ -24,15 +24,15 @@ werewolf(`Full`, `Moon`);
 // 4
 function halloween(){
     console.log(`October 31st`);
-    return;
+    return; // Forgot to change it to return `October 31st`
 }
 halloween();
 
 // 5
 function isEnoughCandy(pieces){
-    if (pieces > 31){
+    if (pieces > 31){ // Forgot to use >= 31 to include 31 in function 
         return true;
-    } else if (pieces < 31){
+    } else if (pieces < 31){ // can also just use else
         return false;
     }
 };
